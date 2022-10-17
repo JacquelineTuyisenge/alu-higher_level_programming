@@ -2,4 +2,4 @@
 cd /
 cd /home/pi/$PYFILE
 sudo python3 script.py
-cd /
+cd / 
