@@ -14,7 +14,7 @@ def pnivel(st):
         elif x < 6 & x != 0:
             print(f"Last digit of {st} is {x} and is less than 6 and not o")
     else:
-        x = -string % 10
+        x = -st % 10
         y = -x
         print(f"Last digit of {st} is {y} and is less than 6 and not 0")
 
