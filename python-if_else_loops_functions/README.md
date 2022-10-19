@@ -1,2 +1,2 @@
-readme file for python-if/ele_function directory
+readme file for python-if/else_function directory
 
