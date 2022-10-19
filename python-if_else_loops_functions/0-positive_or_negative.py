@@ -9,6 +9,6 @@ def pnive(x):
     elif x < 0:
          print(f"{x} is negative")
     else:
-        print(f"{x} is negative")
+        print(f"{x} is zero")
 
 pnive(number)
