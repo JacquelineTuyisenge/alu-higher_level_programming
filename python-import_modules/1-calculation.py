@@ -3,12 +3,15 @@ from calculator_1 import maths
 if __name__ == "__main__":
     a = 10
     b = 5
-    sum = a + b:
-        return (sum)
-    subtraction = a - b:
-        return (subtraction)
-    multiplication = a * b:
-        return (multiplication)
-    division = a / b:
-        return (division)
-    print("{} {} = {}".format(a, b), end="")
+    add = a + b
+        return (add)
+    sub = a - b
+        return (sub)
+    mul = a * b
+        return (mul)
+    div = a / b
+        return (div)
+    print("{:d} + {:d} = {:d}".format(a, b, add(a, b)))
+    print("{:d} - {:d} = {:d}".format(a, b, sub(a, b)))
+    print("{:d} * {:d} = {:d}".format(a, b, mul(a, b)))
+    print("{:d} / {:d} = {:d}".format(a, b, div(a, b)))
