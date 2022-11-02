@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 def no_c(my_string):
-    for letter in my_string:
-        letter = [65:123]
-        if letter[67:68] = [] or letter[99:100] = []:
-            return my_string
+    {ord('c'): None, ord('C'): None}
+    for n in my_string:
+        if ord('n') ==67 or ord('n') ==99:
+            my_string.translate({ord('c'): None, ord('C'): None})
+            return my_string.translate({ord('c'): None, ord('C'): None})
