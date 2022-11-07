@@ -2,5 +2,5 @@
 def safe_print_list(my_list=[], x=0):
     try:
         x >= my_list
-    except KeyError:
+    except IndexError:
         print(x)
