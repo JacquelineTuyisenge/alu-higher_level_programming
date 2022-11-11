@@ -11,7 +11,7 @@ class Node:
             date (int): The data of the new Node.
             next_node (Node): The next node of the new Node.
         """
-        self.date = date
+        self.data = data
         self.next_node = next_node
 
     @property
@@ -46,7 +46,8 @@ class SinglyLinkedList:
 
     def sorted_insert(self, value):
         """Insert a new Node to the SinglyLinkedList.
-        The node is inserted into the list at the correct ordered numerical position.
+        The node is inserted into the list at the correct
+        ordered numerical position.
         Args:
             value (Node): The new Node to insert.
         """
@@ -73,5 +74,4 @@ class SinglyLinkedList:
             values.append(str(tmp.data))
             tmp = tmp.next_node
         return ('\n'.join(values))
-
     
