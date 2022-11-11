@@ -8,7 +8,7 @@ class Node:
     def __init__(self, data, next_node=None):
         """Initialize a new Node.
         Args:
-            date (int): The data of the new Node.
+            data (int): The data of the new Node.
             next_node (Node): The next node of the new Node.
         """
         self.data = data
@@ -74,4 +74,3 @@ class SinglyLinkedList:
             values.append(str(tmp.data))
             tmp = tmp.next_node
         return ('\n'.join(values))
-    
