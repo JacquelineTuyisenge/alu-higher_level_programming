@@ -1,3 +1,3 @@
 #!/usr/bin/python3
 # function that print the types on an object
-print("type")
+type
