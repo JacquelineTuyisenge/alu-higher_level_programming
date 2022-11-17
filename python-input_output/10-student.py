@@ -1,15 +1,20 @@
 #!/usr/bin/python3
-# Write a class Student that defines a student by:
+# Write a class Student that defines a student
 # (based on 9-student.py)
 """
     class 'Student'
 """
 
 
-def __init__(self, first_name, last_name, age):
+class Student:
     """
-        init a new Student
+        define class 'Student'
     """
+
+    def __init__(self, first_name, last_name, age):
+        """
+            init a new Student
+        """
 
     self.first_name = first_name
     self.last_name = last_name
