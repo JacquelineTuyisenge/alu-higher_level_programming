@@ -10,7 +10,7 @@ class BaseGeometry:
         Representation of 'BaseGeometry'
     """
 
-    def are(self):
+    def area(self):
         """
         raises Exception with message
         """
