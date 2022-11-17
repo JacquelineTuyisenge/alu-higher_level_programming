@@ -1,0 +1,48 @@
+The ``1-my_list`` module
+===================
+
+Using ``MyList``
+-------------------
+
+import module:
+         >>> MyList = __import__("1-my_list").MyList
+
+empty list:
+	 >>> ml = MyList()
+	 >>> ml.print_sorted()
+	 []
+
+append new elements:
+	 >>> ml = MyList()
+	 >>> ml.append(1)
+	 >>> ml.append(2)
+	 >>> ml.append(3)
+	 >>> print(ml)
+	 [1, 2, 3]
+
+already sorted list:
+         >>> ml.print_sorted()
+         [1, 2, 3]
+
+unsorted list:
+         >>> ml2 = MyList()
+	 >>> ml2.append(1)
+	 >>> ml2.append(3)
+	 >>> ml2.append(2)
+         >>> print(ml2)
+	 [1, 3, 2]
+	 >>> ml2.print_sorted()
+	 [1, 2, 3]
+
+negative numbers:
+	 >>> ml2.append(-4)
+	 >>> print(ml2)
+         [1, 3, 2, -4]
+	 >>> ml2.print_sorted()
+	 [-4, 1, 2, 3]
+
+too many arguments:
+         >>> ml.print_sorted(ml2)
+         Traceback (most recent call last):
+                   ...
+	 TypeError: print_sorted() takes 1 positional argument but 2 were given
