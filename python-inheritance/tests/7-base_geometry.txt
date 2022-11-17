@@ -1,5 +1,5 @@
 The ``7-base_geometry`` module
-===================
+==================
 
 Using ``BaseGeometry``
 -------------------
@@ -64,7 +64,6 @@ set:
          Traceback (most recent call last):
                    ...
          TypeError: set must be an integer
-
 None:
          >>> bg.integer_validator("none", None)
          Traceback (most recent call last):
@@ -75,7 +74,7 @@ zero arguments:
          >>> bg.integer_validator()
          Traceback (most recent call last):
          	   ...
-	TypeError: integer_validator() missing 2 required positional arguments: 'name' and 'value'
+         TypeError: integer_validator() missing 2 required positional arguments: 'name' and 'value'
 
 1 argument:
          >>> bg.integer_validator("int")
