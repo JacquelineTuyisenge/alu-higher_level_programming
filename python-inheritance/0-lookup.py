@@ -1,17 +1,12 @@
 #!/usr/bin/python3
 # return the list of available attributes and methds of an object
 """
-    define a class 'MyList'
+    define a function ' lookup'
 """
 
 
-class MyList(list):
+def lookup(obj):
     """
-        implement sorted list
+        Return:list object
     """
-
-    def print_sorted(self):
-        """
-            prints sorted list
-        """
-        print(sorted(self))
+    return (dir(obj))
