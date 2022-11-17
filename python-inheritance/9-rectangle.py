@@ -12,7 +12,7 @@ class Rectangle(BaseGeometry):
         representation of 'Rectangle'
     """
 
-    def __init__(self, width, heights):
+    def __init__(self, width, height):
         """
             intialize a new 'Rectangle'
             Args:
