@@ -2,7 +2,7 @@
 # python script that takes in URL & email then send POST request
 # response body of response
 """
-    takes in URL & email then sendes POST request, display the body of response in 'utf-8'
+    takes in URL & email then sendes POST request
 """
 import sys
 import urllib.request
