@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-# bash script that takes in and send request to URL and display
+# python script that takes in and send request to URL and display
 # the ' X-Request-Id'
 """
     send request to a URL and display the value of 'X-Request-Id'
