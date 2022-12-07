@@ -5,7 +5,7 @@
 def matrix_mul(m_a, m_b):
     """matrix multiplication"""
     if not isinstance(m_a, list):
-         raise TypeError("m_a must be a list")
+        raise TypeError("m_a must be a list")
     elif not isinstance(m_b, list):
         raise TypeError("m_b must be a list")
     elif not all(isinstance(row, list) for row in m_a):
