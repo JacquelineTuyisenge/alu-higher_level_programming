@@ -1,7 +1,9 @@
 #!/usr/bin/python3
 # Python file similar to model_state.py named 'model_city.py'
 # that contains the class definition of a City.
-"""import 'sys','sqlalchemy',"City' & 'State'."""
+"""
+   import 'sys','sqlalchemy',"City' & 'State'
+"""
 import sys
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
