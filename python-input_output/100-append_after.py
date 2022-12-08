@@ -2,6 +2,7 @@
 # function that inserts a line of text to the file
 """define a 'append_after'."""
 
+
 def append_after(filename="", search_string="", new_string=""):
     """
         insert line of text to file after each line containing a string

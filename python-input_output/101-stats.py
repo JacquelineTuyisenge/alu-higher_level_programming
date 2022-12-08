@@ -2,6 +2,7 @@
 # script that reads stdin line and computes metrics
 """define a function 'print_stats'."""
 
+
 def print_stats(size, status_codes):
     """
         print accumulated metrics
