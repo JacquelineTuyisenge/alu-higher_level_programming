@@ -6,14 +6,13 @@
 """
 
 from sqlalchemy import Column, ForeignKey, Integer, String
-from sqlalchemy.ext.declarative import
+from sqlalchemy.ext.declarative import declarative_base
 
 Base = declarative_base()
 
 
 class City(Base):
     """Represents a city for a MySQL database.
-
     Attributes:
         id (str): The city's id.
         name (sqlalchemy.Integer): The city's name.
